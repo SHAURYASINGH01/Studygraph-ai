@@ -4,6 +4,8 @@
 
 ## Overview
 
+<b> Agent Memory and Co-ordination </b>
+
 StudyGraph AI helps learners discover what to study next by using topic prerequisites and learning progress. FalkorDB stores the relationships between learning concepts, while the application uses those relationships to recommend topics.
 
 ## Problem Statement
