@@ -91,3 +91,40 @@ AI coding assistance was used during development.
 - Improved personalized recommendations.
 - User accounts and persistent learning profiles.
 - Deployment with a hosted FalkorDB instance.
+
+## Example Cypher Queries
+
+StudyGraph AI uses FalkorDB to store learning topics and their prerequisite relationships.
+
+### View learning topics and prerequisites
+
+```cypher
+MATCH (a)-[r]->(b)
+RETURN a, r, b
+```
+
+This query retrieves connected nodes and relationships from the `StudyGraph` graph.
+
+### Example learning path
+
+```text
+Variables -> Functions -> Recursion
+Loops -> Recursion
+```
+
+These relationships represent prerequisite dependencies used by the learning recommendation system.
+
+### Graph Query Execution
+
+The Node.js backend connects to FalkorDB through the Redis client and executes Cypher queries using the `GRAPH.QUERY` command on the `StudyGraph` graph.
+
+
+
+
+
+
+
+
+
+
+
