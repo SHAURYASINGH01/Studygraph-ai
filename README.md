@@ -114,7 +114,27 @@ Loops -> Recursion
 
 These relationships represent prerequisite dependencies used by the learning recommendation system.
 
+### Run FalkorDB with Docker
+
+StudyGraph AI uses FalkorDB as its graph database.
+
+**Prerequisites:** Install Docker Desktop and ensure it is running.
+
+Start the FalkorDB container:
+
+```bash
+docker run -d --name falkordb -p 6379:6379 -p 3000:3000 falkordb/falkordb:latest
+```
+
+If the container already exists, start it with:
+
+```bash
+docker start falkordb
+```
+
+Then start the backend and frontend using the commands listed above.
+
+
 ### Graph Query Execution
 
 The Node.js backend connects to FalkorDB through the Redis client and executes Cypher queries using the `GRAPH.QUERY` command on the `StudyGraph` graph
-
