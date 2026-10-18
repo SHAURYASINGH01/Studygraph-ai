@@ -83,7 +83,7 @@ Built for Graph Hacks featuring FalkorDB.
 
 ## AI Assistance Disclosure
 
-AI coding assistance was used during development.
+AI coding assistance was implementation guidance, debugging support, code explanations, and UI improvements. The project code and functionality were reviewed and tested during development.
 
 ## Future Improvements
 
@@ -116,15 +116,5 @@ These relationships represent prerequisite dependencies used by the learning rec
 
 ### Graph Query Execution
 
-The Node.js backend connects to FalkorDB through the Redis client and executes Cypher queries using the `GRAPH.QUERY` command on the `StudyGraph` graph.
-
-
-
-
-
-
-
-
-
-
+The Node.js backend connects to FalkorDB through the Redis client and executes Cypher queries using the `GRAPH.QUERY` command on the `StudyGraph` graph
 
