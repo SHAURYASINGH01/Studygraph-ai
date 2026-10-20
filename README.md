@@ -12,6 +12,11 @@ StudyGraph AI helps learners discover what to study next by using topic prerequi
 
 Learners often struggle to decide what to learn next and which concepts they should understand first. StudyGraph AI represents learning topics as a graph to make prerequisites and next steps easier to understand.
 
+## Demo Video
+
+https://youtu.be/wwtRVb5Xv5c?si=D_UbzOk9xT7fC3QG
+
+
 ## Features
 
 - Learning topics connected through prerequisite relationships.
@@ -137,4 +142,4 @@ Then start the backend and frontend using the commands listed above.
 
 ### Graph Query Execution
 
-The Node.js backend connects to FalkorDB through the Redis client and executes Cypher queries using the `GRAPH.QUERY` command on the `StudyGraph` graph
+The Node.js backend connects to FalkorDB through the Redis client and executes Cypher queries using the `GRAPH.QUERY` command on the `StudyGraph` gra
