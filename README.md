@@ -142,4 +142,4 @@ Then start the backend and frontend using the commands listed above.
 
 ### Graph Query Execution
 
-The Node.js backend connects to FalkorDB through the Redis client and executes Cypher queries using the `GRAPH.QUERY` command on the `StudyGraph` gra
+The Node.js backend connects to FalkorDB through the Redis client and executes Cypher queries using the `GRAPH.QUERY` command on the `StudyGraph`
